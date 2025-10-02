@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f8f9fa;
+}
+.card-destino {
+  border-radius: 12px;
+  min-height: 160px;
+  transition: transform 0.3s ease-in-out;
+}
+.card-destino:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+.bg-orange {
+  background-color: #f97316; 
+}
+.bg-teal {
+  background-color: #0d9488; 
+}
+.bg-purple {
+  background-color: #7e22ce; 
+}
+.card-img {
+  background-size: cover;
+  background-position: center;
+  color: rgb(7, 43, 46);
+}
+.testimonio {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  padding: 20px;
+}
+.testimonio p {
+  font-style: italic;
+}
+
+.footer {
+  background-color: #5a1d42;
+  color: white;
+  padding: 40px 0;
+}
+.footer h5 {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.footer a {
+  margin-right: 10px;
+}
+img {
+  border-radius: 8px;
+  max-width: 100%;
+  height: auto;
+}
